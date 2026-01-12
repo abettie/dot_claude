@@ -1,0 +1,9 @@
+# すべてを除外
+*
+
+# 管理対象を許可
+!.gitignore
+!README.md
+!settings.json
+!commands/
+!commands/**
