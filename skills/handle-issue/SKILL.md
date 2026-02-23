@@ -1,3 +1,9 @@
+---
+name: handle-issue
+description: 引数で指定されたIssue番号（または最新のオープンIssue）に対して、作業ブランチの作成、変更の実装、コミット、プルリクエストの作成を自動で行うコマンドです。
+disable-model-invocation: true
+---
+
 # Issue対応ワークフロー自動化コマンド
 
 引数として受け取ったIssue番号（または指定がない場合は最新のオープンIssue）に対して、以下のワークフローを実行してください：
