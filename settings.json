@@ -1,4 +1,7 @@
 {
+  "env": {
+    "NODE_ENV": "development"
+  },
   "permissions": {
     "allow": [
       "Read(**)",
@@ -29,8 +32,5 @@
       "Write(.env*)",
       "Bash(curl:*)"
     ]
-  },
-  "env": {
-    "NODE_ENV": "development"
   }
 }
