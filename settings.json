@@ -24,7 +24,9 @@
       "Bash(git push* && gh pr create*)",
       "Bash(gh issue list*)",
       "Bash(gh issue view*)",
-      "Bash(gh pr create*)"
+      "Bash(gh pr create*)",
+      "Bash(terraform fmt*)",
+      "Bash(terraform plan*)"
     ],
     "deny": [
       "Bash(sudo*)",
